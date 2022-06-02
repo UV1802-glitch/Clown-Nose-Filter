@@ -1,0 +1,24 @@
+h3
+{
+    font-size: 25px;
+}
+
+#take_photo:hover
+{
+    background-color: black;
+}
+
+canvas
+{
+    border: 5px, solid, black;
+
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation
+{
+    from{box-shadow: 1px 1px 40px red;}
+    to{box-shadow: 1px 1px 40px yellow;}
+}
